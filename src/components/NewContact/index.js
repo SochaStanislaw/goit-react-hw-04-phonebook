@@ -1,0 +1,1 @@
+export { NewContact } from './NewContact';

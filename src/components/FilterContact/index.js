@@ -1,0 +1,1 @@
+export { FilterContact } from './FilterContact';
