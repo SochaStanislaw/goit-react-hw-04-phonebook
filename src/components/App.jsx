@@ -61,12 +61,6 @@ export const App = () => {
     }, [contacts]
   );
 
-  // componentDidUpdate(prevState) {
-  //   if (this.state.contacts !== prevState.contacts) {
-  //     localStorage.setItem('saved contacts', JSON.stringify(this.state.contacts));
-  //   }
-  // };
-
   return (
     <div>
       <p>your best contact's list:</p>
