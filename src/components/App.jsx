@@ -10,7 +10,7 @@ import { FilterContact } from './FilterContact';
 
 export const App = () => {
   const [contacts, setContacts] = useState(
-    JSON.parse(window.localStorage.getItem('saved contacts'))
+    JSON.parse(window.localStorage.getItem('saved contacts')) || []
   );
   const [filter, setFilter] = useState('');
 
